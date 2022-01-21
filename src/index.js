@@ -2,10 +2,14 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./style.css"
 import Navbar from "./components/Navbar"
+import Meme from "./components/Meme"
 
 function App() {
     return (
-        <Navbar />
+        <React.Fragment>
+            <Navbar />
+            <Meme />
+        </React.Fragment>
     )
 }
 
