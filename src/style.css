@@ -39,11 +39,12 @@ nav h1{
   font-weight: 500;
 }
 
+
 .generator{
+  padding: 4rem 12rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 4rem 12rem;
   row-gap: 1.5rem;
   column-gap: 12rem;
   margin-top: 3rem;
@@ -69,4 +70,14 @@ nav h1{
 }
 .generator button:hover {
   background-color: var(--light-purple);
+}
+
+.meme-container{
+  display: flex;
+  justify-content: center;
+}
+
+.template{
+  height: 35rem;
+  margin-bottom: 3rem;
 }
